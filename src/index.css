@@ -10,24 +10,26 @@ body {
   padding: 0;
 }
 :root {
-  --bg--color : #000000;
-  --text-color : #f9f9f9;
-  --shoes-shadow : rgba(255, 0, 0, 0.6);
-   --bg-slider1 : linear-gradient(173.68deg, #000000c9 0%, #3f3a3c 100%) ;
-   --bg-slider2 :  linear-gradient(174.76deg, #6381fb 0%, #98a3d2 100%);
+     --bg--color: #000000;
+     --text-color: #f9f9f9;
+     --shoes-shadow: rgba(255, 0, 0, 0.6);
+     --bg-slider1: linear-gradient(173.68deg, #000000c9 0%, #3f3a3c 100%) ;
+     --bg-slider2:  linear-gradient(174.76deg, #6381fb 0%, #98a3d2 100%);
  
 }
 .dark{
   --bg--color : #f9f9f9;
   --text-color : #000000;
    --shoes-shadow : rgba(1, 164, 240, 0.885);
-   --bg-slider1 :  linear-gradient(173.68deg, #b8b8b8c9 0%, #ffffff 100%) ; ;
+   --bg-slider1 :  linear-gradient(173.68deg, #b8b8b8c9 0%, #ffffff 100%) ; 
    --bg-slider2 :  linear-gradient(174.76deg, #ffffff 0%, #98a3d2 100%);
- ;
+ 
 }
 .font {
   font-family: "Almarai", sans-serif;
   background-color: var(--bg--color);
+    transition: background-color 0.4s ease, color 0.4s ease;
+
 }
 .hieght-search {
   height: 80vh;
@@ -55,9 +57,15 @@ body {
 }
 .navbar{
   background-color: var(--bg--color);
+    transition: background-color 0.4s ease, color 0.4s ease;
+
+   
+
 }
 .navbar i {
   color: var(--text-color);
+    transition: background-color 0.4s ease, color 0.4s ease;
+
 }
 .nav-text {
   color: #ffffff;
@@ -516,6 +524,8 @@ filter: drop-shadow(0 0 20px rgba(1, 164, 240, 0.885));
   width: 100%;
   border-radius: 21px;
   background-color: var(--bg--color);
+    transition: background-color 0.4s ease, color 0.4s ease;
+
 }
 
 .admin-side-text {
@@ -713,6 +723,8 @@ filter: drop-shadow(0 0 20px rgba(1, 164, 240, 0.885));
 /* end filter */
 .splash-container {
   background-color: var(--bg--color);
+    transition: background-color 0.4s ease, color 0.4s ease;
+
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -741,6 +753,8 @@ filter: drop-shadow(0 0 20px rgba(1, 164, 240, 0.885));
 @keyframes lightningFlash {
   0%, 95%, 100% {
     background-color: var(--bg--color);
+      transition: background-color 0.4s ease, color 0.4s ease;
+
   }
   96% {
     background-color: #ffffff;
@@ -753,6 +767,8 @@ filter: drop-shadow(0 0 20px rgba(1, 164, 240, 0.885));
   }
   99% {
     background-color: var(--bg--color);
+      transition: background-color 0.4s ease, color 0.4s ease;
+
   }
 }
 

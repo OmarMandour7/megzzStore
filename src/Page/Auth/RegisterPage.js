@@ -1,10 +1,16 @@
 import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { motion } from "framer-motion";
 
 const RegisterPage = () => {
     return (
-        <Container style={{ minHeight: "680px"}}>
+       <motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  exit={{ opacity: 0 }}
+  transition={{ duration: 0.4 }}
+> <Container style={{ minHeight: "680px"}}>
         <Row className="py-5 d-flex justify-content-center hieght-search cor">
           <Col sm="12" className="d-flex flex-column ">
             <label className="mx-auto title-login">Register New User </label>
@@ -39,7 +45,8 @@ const RegisterPage = () => {
             </label>
           </Col>
         </Row>
-      </Container>
+      </Container></motion.div>
+       
     )
 }
 

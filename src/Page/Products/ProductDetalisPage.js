@@ -1,13 +1,18 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import CategoryHeader from '../../Components/Category/CategoryHeader'
 import CardProductsContainer from '../../Components/Products/CardProductsContainer'
 import ProductDetalis from '../../Components/Products/ProductDetalis'
-import RateContainer from '../../Components/Rate/RateContainer'
-
+import { motion } from 'framer-motion'
 const ProductDetalisPage = () => {
     return (
-        <div style={{ minHeight: '670px', backgroundColor:"var(--bg-color)" }}>
+
+         <motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  exit={{ opacity: 0 }}
+  transition={{ duration: 0.4 }}
+> 
+ <div style={{ minHeight: '670px', backgroundColor:"var(--bg-color)" }}>
          
             <Container >
                 <ProductDetalis />
@@ -15,6 +20,8 @@ const ProductDetalisPage = () => {
                 <CardProductsContainer title="Products" />
             </Container>
         </div>
+        </motion.div>
+       
     )
 }
 

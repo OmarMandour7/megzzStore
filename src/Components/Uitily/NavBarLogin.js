@@ -5,6 +5,7 @@ const NavBarLogin = () => {
   const [, toggleDarkMode, isLogo] = useDarkMode();
   
   return (
+    
     <Navbar
       className=" sticky-top"
       

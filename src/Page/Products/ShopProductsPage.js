@@ -4,9 +4,16 @@ import CardProductsContainer from '../../Components/Products/CardProductsContain
 import Pagination from '../../Components/Uitily/Pagination'
 import SearchCountResult from '../../Components/Uitily/SearchCountResult'
 import SideFilter from '../../Components/Uitily/SideFilter'
+import { motion } from 'framer-motion'
 
 const ShopProductsPage = () => {
     return (
+        <motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  exit={{ opacity: 0 }}
+  transition={{ duration: 0.4 }}
+> 
         <div style={{ minHeight: '670px'}}>
             
             <Container>
@@ -22,6 +29,7 @@ const ShopProductsPage = () => {
                     <Pagination />
             </Container>
         </div>
+        </motion.div>
     )
 }
 
