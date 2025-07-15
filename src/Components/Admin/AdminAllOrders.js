@@ -8,6 +8,9 @@ const AdminAllOrders = () => {
             <div className='admin-content-text mb-3 cor'>All Order Managment</div>
             <Row className='justify-content-start'>
                 <AdminAllOrdersItem />
+                 <AdminAllOrdersItem />
+                  <AdminAllOrdersItem />
+                   <AdminAllOrdersItem />
 
             </Row>
         </div>

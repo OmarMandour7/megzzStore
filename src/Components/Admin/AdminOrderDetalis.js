@@ -4,90 +4,47 @@ import CartItem from '../Cart/CartItem'
 
 const AdminOrderDetalis = () => {
     return (
-        <div>
-            <div className='admin-content-text'>تفاصيل الطلب رقم#55</div>
+        <div className=''>
+            <div className='admin-content-text cor'>Order Number   #234556</div>
             <CartItem />
-            
-
-            <Row className="justify-content-center mt-4 user-data">
+               <CartItem />
+   <CartItem /> 
+            <Row className="justify-content-center mt-4 pb-2 user-data">
                 <Col xs="12" className=" d-flex">
-                    <div className="admin-content-text py-2">تفاصيل العميل</div>
+                    <div className="admin-content-text cor py-2" style={{color:'black'}}>Order Details</div>
                 </Col>
-                <Col xs="12" className="d-flex">
-                    <div
-                        style={{
-                            color: "#555550",
-                            fontFamily: "Almarai",
-                            fontSize: "16px",
-                        }}>
-                        الاسم:
-                    </div>
-
-                    <div
-                        style={{
-                            color: "#979797",
-                            fontFamily: "Almarai",
-                            fontSize: "16px",
-                        }}
-                        className="mx-2">
-                        احمد عبداللة
-                    </div>
-                </Col>
-
-                <Col xs="12" className="d-flex">
-                    <div
-                        style={{
-                            color: "#555550",
-                            fontFamily: "Almarai",
-                            fontSize: "16px",
-                        }}>
-                        رقم الهاتف:
-                    </div>
-
-                    <div
-                        style={{
-                            color: "#979797",
-                            fontFamily: "Almarai",
-                            fontSize: "16px",
-                        }}
-                        className="mx-2">
-                        0021313432423
-                    </div>
-                </Col>
-                <Col xs="12" className="d-flex">
-                    <div
-                        style={{
-                            color: "#555550",
-                            fontFamily: "Almarai",
-                            fontSize: "16px",
-                        }}>
-                        الايميل:
-                    </div>
-
-                    <div
-                        style={{
-                            color: "#979797",
-                            fontFamily: "Almarai",
-                            fontSize: "16px",
-                        }}
-                        className="mx-2">
-                        ahmed@gmail.com
-                    </div>
-                </Col>
-                <div className=" d-inline px-4 border text-center pt-2">
-                    المجموع ٤٠٠٠ جنيه
-                </div>
-                <div className="d-flex mt-2 justify-content-center">
+                 <Row className="d-flex justify-content-between pt-2">
+                                    <Col xs="6" className="d-flex">
+                                        <div className="p-2 cor">Name:</div>
+                                        <div className="p-1 item-delete-edit cor">Omar Mandour </div>
+                                    </Col>
+                                   
+                                </Row>
+                
+              <Row className="">
+                                 <Col xs="12" className="d-flex">
+                                     <div className="p-2 cor">Phone Number:</div>
+                                     <div className="p-1 item-delete-edit cor">0122314324</div>
+                                 </Col>
+                             </Row>
+                             <Row className="">
+                                 <Col xs="12" className="d-flex">
+                                     <div className="p-2 cor">Email:</div>
+                                     <div className="p-1 item-delete-edit cor ">Mans@gmail.com</div>
+                                 </Col>
+                             </Row>
+                 <div className="product-price d-inline text-end fs-3">1250 LE</div>
+                <div className="d-flex p-2 justify-content-end">
                     <select
                         name="languages"
                         id="lang"
-                        className="select input-form-area mt-1  text-center px-2 w-50">
-                        <option value="val">حالة الطلب</option>
-                        <option value="val2">قيد التنفيذ</option>
-                        <option value="val2">تم الانتهاء</option>
-                        <option value="val2">الغاء</option>
+                        className="select input-form-area mt-1 cor  text-center px-2 w-50">
+                        <option  value="val">Order Progress </option>
+                        <option  value="val2">In Progress</option>
+                        <option  value="val2">Ordered</option>
+                        <option  value="val2">Cancel</option>
                     </select>
-                    <button className="btn-a px-3 d-inline mx-2 ">حفظ </button>
+                    <button className="btn-a px-3 d-inline mx-2 ">Save </button>
                 </div>
             </Row>
         </div>

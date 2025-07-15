@@ -18,7 +18,6 @@ import AdminAllOrdersPage from "./Page/Admin/AdminAllOrdersPage";
 import AdminOrderDetalisPage from "./Page/Admin/AdminOrderDetalisPage";
 import AdminAddBrandPage from "./Page/Admin/AdminAddBrandPage";
 import AdminAddCategoryPage from "./Page/Admin/AdminAddCategoryPage";
-import AdminAddSubCategoryPage from "./Page/Admin/AdminAddSubCategoryPage";
 import AdminAddProductsPage from "./Page/Admin/AdminAddProductsPage";
 
 import UserAllOrdersPage from "./Page/User/UserAllOrdersPage";
@@ -28,6 +27,8 @@ import UserAddAddressPage from "./Page/User/UserAddAddressPage";
 import UserEditAddressPage from "./Page/User/UserEditAddressPage";
 import UserProfilePage from "./Page/User/UserProfilePage";
 import Splash from "./Splash";
+import AdminPendingOrdersPage from "./Page/Admin/AdminPendingOrdersPage";
+import AdminAddProductsTitlePage from "./Page/Admin/AdminAddProductsTitlePage";
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -47,11 +48,12 @@ function AnimatedRoutes() {
         {/* Admin */}
         <Route path="/admin/allproducts" element={<AdminAllProductsPage />} />
         <Route path="/admin/allorders" element={<AdminAllOrdersPage />} />
+         <Route path="/admin/pendingorders" element={<AdminPendingOrdersPage />} />
         <Route path="/admin/orders/:id" element={<AdminOrderDetalisPage />} />
         <Route path="/admin/addbrand" element={<AdminAddBrandPage />} />
         <Route path="/admin/addcategory" element={<AdminAddCategoryPage />} />
-        <Route path="/admin/addsubcategory" element={<AdminAddSubCategoryPage />} />
         <Route path="/admin/addproduct" element={<AdminAddProductsPage />} />
+         <Route path="/admin/addproducttitle" element={<AdminAddProductsTitlePage />} />
         {/* User */}
         <Route path="/user/allorders" element={<UserAllOrdersPage />} />
         <Route path="/user/favoriteproducts" element={<UserFavoriteProductsPage />} />
@@ -78,7 +80,7 @@ function App() {
               <div style={{ backgroundColor: "var(--bg--color)" }}>
                 <AnimatedRoutes />
               </div>
-              <Footer />
+              {/* <Footer /> */}
             </>
           }
         />

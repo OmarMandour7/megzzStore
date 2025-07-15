@@ -7,14 +7,13 @@ import { motion } from "framer-motion";
 
 const HomePage = () => {
     return (
-       
  <motion.div
   initial={{ opacity: 0 }}
   animate={{ opacity: 1 }}
   exit={{ opacity: 0 }}
   transition={{ duration: 0.4 }}
 >
-         <div className='' style={{ minHeight: '670px' }}>
+         <div className=''style={{ minHeight: '670px' }}>
             
             <Silder />
             <CardProductsContainer title="Products" btntitle="More" pathText="/products" />

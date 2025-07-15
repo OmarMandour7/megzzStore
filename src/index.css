@@ -523,7 +523,7 @@ filter: drop-shadow(0 0 20px rgba(1, 164, 240, 0.885));
   height: 660px;
   width: 100%;
   border-radius: 21px;
-  background-color: var(--bg--color);
+  background-color: transparent;
     transition: background-color 0.4s ease, color 0.4s ease;
 
 }
@@ -570,12 +570,12 @@ filter: drop-shadow(0 0 20px rgba(1, 164, 240, 0.885));
 }
 
 .text-form {
-  color: #979797;
+  color: var(--text-color);
   font-family: "Almarai";
   font-size: 16px;
   letter-spacing: 0;
   line-height: 20px;
-  text-align: right;
+  text-align: left;
 }
 .input-form {
   height: 37px;
@@ -602,7 +602,7 @@ filter: drop-shadow(0 0 20px rgba(1, 164, 240, 0.885));
   border: none;
   color: white;
   height: 46px;
-  width: 150px;
+  
   border-radius: 9px;
   background-color: #272727;
 }
@@ -701,7 +701,7 @@ filter: drop-shadow(0 0 20px rgba(1, 164, 240, 0.885));
 
 /* user card data */
 .user-data {
-  height: 270px;
+
   width: 100% i !important;
   border-radius: 7px;
   background-color: #ffffff;

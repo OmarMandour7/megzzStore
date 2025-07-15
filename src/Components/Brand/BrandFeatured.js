@@ -10,7 +10,7 @@ const BrandFeatured = ({ title, btntitle }) => {
     return (
         <Container>
             <SubTiltle title={title} btntitle={btntitle} pathText="/allbrand" />
-            <Row className='my-1 d-flex justify-content-between '>
+            <Row className='mt-1 d-flex justify-content-between '>
                 <BrandCard img={brand1} />
                 <BrandCard img={brand2} />
                 <BrandCard img={brand3} />
