@@ -80,7 +80,7 @@ function App() {
               <div style={{ backgroundColor: "var(--bg--color)" }}>
                 <AnimatedRoutes />
               </div>
-              {/* <Footer /> */}
+              <Footer />
             </>
           }
         />

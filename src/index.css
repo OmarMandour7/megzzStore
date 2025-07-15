@@ -823,3 +823,19 @@ filter: drop-shadow(0 0 20px rgba(1, 164, 240, 0.885));
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+footer {
+  background-color: var(--bg--color);
+  color: var(--text-color);
+  font-size: 50px;
+}
+
+footer a {
+  color: #aaa;
+  margin-left: 20px;
+  scale: (1);
+}
+
+footer a:hover {
+  color: #fff;
+  scale: (1.2);
+}
