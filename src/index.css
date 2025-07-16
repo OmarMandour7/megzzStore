@@ -34,10 +34,18 @@ body {
 .hieght-search {
   height: 80vh;
 }
+.navbar{
+  padding-left: 10%;
+}
 .search{
-  filter: drop-shadow(0 0 20px rgba(1, 164, 240, 0.885));
+    margin-right: 10%;
+      margin-left : 10%;
+    width: 40% !important;
+   
+    filter: drop-shadow(0 0 20px rgba(1, 164, 240, 0.885));
   -webkit-filter: drop-shadow(0 0 20px rgba(1, 164, 240, 0.885));
 }
+
 .loginsh{ filter: drop-shadow(0 0 10px rgba(144, 133, 149, 0.885)); -webkit-filter: drop-shadow(0 0 10px rgba(144, 133, 149, 0.885));
 }
 .logo {

@@ -14,11 +14,11 @@ const ProductCard = () => {
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
         style={{
-          width: "100%",
+          width: "70%",
           borderRadius: "8px",
           border: "none",
           backgroundColor: "var(--bg--color)",
-          filter: "drop-shadow(0 0 9px var(--text-color))",
+         
         }}
       >
         <Link to="/products/:id" style={{ textDecoration: "none" }}>

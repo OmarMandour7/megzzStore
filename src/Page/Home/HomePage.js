@@ -18,6 +18,7 @@ const HomePage = () => {
             <Silder />
             <CardProductsContainer title="Products" btntitle="More" pathText="/products" />
              <DiscountSection />
+              <CardProductsContainer title="Products" btntitle="More" pathText="/products" />
             <BrandFeatured title="Top Brands" btntitle="More"  />
            
 

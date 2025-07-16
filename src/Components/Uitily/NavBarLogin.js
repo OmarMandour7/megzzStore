@@ -7,8 +7,7 @@ const NavBarLogin = () => {
   return (
     
     <Navbar
-      className=" sticky-top"
-      
+      className=" sticky-top "
       expand="sm"
     >
       <Container>
@@ -18,18 +17,17 @@ const NavBarLogin = () => {
           </a>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" >
           <FormControl
             type="search"
             placeholder="Search..."
-            className="me-2 w-100 text-center cor search"
+            className="text-center cor search"
             aria-label="Search"
           />
           <Nav className="me-auto">
-             
             <Nav.Link
               href="/login"
-              className="nav-text merienda d-flex mt-3 justify-content-center"
+              className="nav-text  d-flex mt-3 justify-content-center"
             >
               <div className="d-flex flex-row ">
                 <i class="fa-solid fa-user fs-5 mx-1 d-flex"></i>
