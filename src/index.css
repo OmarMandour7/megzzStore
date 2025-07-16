@@ -34,9 +34,7 @@ body {
 .hieght-search {
   height: 80vh;
 }
-.navbar{
-  padding-left: 10%;
-}
+
 .search{
     margin-right: 10%;
       margin-left : 10%;
@@ -51,7 +49,6 @@ body {
 .logo {
   height: 90px;
   width: 100px;
-  padding: 10px;
 }
 .merienda {
   font-family: "Merienda", cursive !important;

@@ -2,9 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import AdminSideBar from "../../Components/Admin/AdminSideBar";
 import { motion } from "framer-motion";
-import AdminAllProducts from "../../Components/Admin/AdminAllProducts";
-import Pagination from "../../Components/Uitily/Pagination";
-import AdminOrderDetalis from "../../Components/Admin/AdminOrderDetalis";
+
 import AdminAddBrand from "../../Components/Admin/AdminAddBrand";
 const AdminAddBrandPage = () => {
   return (

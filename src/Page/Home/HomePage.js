@@ -16,9 +16,9 @@ const HomePage = () => {
          <div className=''style={{ minHeight: '670px' }}>
             
             <Silder />
-            <CardProductsContainer title="Products" btntitle="More" pathText="/products" />
+            <CardProductsContainer title="Arrives Now" btntitle="More" pathText="/products" sectitle="Our New Collection" />
              <DiscountSection />
-              <CardProductsContainer title="Products" btntitle="More" pathText="/products" />
+              <CardProductsContainer title="Products" btntitle="More" pathText="/products" sectitle="Look At This" />
             <BrandFeatured title="Top Brands" btntitle="More"  />
            
 
